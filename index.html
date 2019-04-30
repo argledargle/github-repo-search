@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <title>Argledargle's github search tool</title>
 </head>
 <body>
-    
+    <header><h1>Search for users</h1></header>
+    <form id="form">
+        <input type="text" id="input" required>
+        <input type="submit" value="Search">
+    </form>
+    <section id="results" class="hidden">
+        <h2>Search results</h2>
+        <ul id="search-results">
+
+        </ul>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
